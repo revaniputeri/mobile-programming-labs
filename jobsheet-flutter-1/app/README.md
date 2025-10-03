@@ -11,4 +11,7 @@
 ![Screenshot hello_world dengan widget loading cupertino](image/4.png)    
 ![Screenshot hello_world dengan Scaffold widget](image/5.png)   
 ![Screenshot hello_world dengan AlertDialog dan SimpleDialog widget](image/6.png)   
-
+![Screenshot hello_world dengan input widget](image/7-1.png)   
+![Screenshot hello_world dengan input widget](image/7-2.png)   
+![Screenshot hello_world dengan input widget](image/8.png)   
+![Screenshot hello_world dengan ListView widget](image/8-2.png)   
