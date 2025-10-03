@@ -6,9 +6,7 @@
 
 ## Screenshot Aplikasi
 ![Screenshot hello_world](image/1.png)   
-
 ![Screenshot hello_world dengan widget teks](image/2.png)   
-
 ![Screenshot hello_world dengan widget gambar](image/3.png)  
-
-![Screenshot hello_world dengan widget loading cupertino](image/4.png)   
+![Screenshot hello_world dengan widget loading cupertino](image/4.png)    
+![Screenshot hello_world dengan Scaffold widget](image/5.png)   
