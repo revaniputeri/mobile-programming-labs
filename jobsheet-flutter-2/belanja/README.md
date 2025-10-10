@@ -184,3 +184,66 @@ class ItemPage extends StatelessWidget {
 ```
 ### Hasil:
 ![Hasil Praktikum 2](images/praktikum5_hasil2.png)
+
+---
+
+## Laporan Tugas Praktikum 2
+
+### Implementasi Pengembangan Aplikasi Belanja
+
+Pada tugas praktikum ini, dilakukan pengembangan lebih lanjut terhadap aplikasi belanja yang telah dibuat pada praktikum sebelumnya. Berikut adalah implementasi dari setiap poin tugas yang diberikan:
+
+#### 1. Implementasi Pengiriman Data Antar Halaman
+
+Pengiriman data dari HomePage ke ItemPage berhasil diimplementasikan menggunakan parameter `arguments` pada Navigator. Implementasi dilakukan dengan menambahkan kode berikut pada fungsi navigasi:
+
+```dart
+Navigator.pushNamed(context, '/item', arguments: item);
+```
+
+#### 2. Implementasi Pembacaan Data dari Halaman Sebelumnya
+
+Proses pembacaan data yang dikirimkan dari halaman sebelumnya berhasil diimplementasikan menggunakan ModalRoute. Data dapat diakses dan digunakan dengan kode sebagai berikut:
+
+```dart
+final itemArgs = ModalRoute.of(context)!.settings.arguments as Item;
+```
+*Referensi: [Flutter Documentation - Navigate with Arguments](https://docs.flutter.dev/cookbook/navigation/navigate-with-arguments)*
+
+#### 3. Pengembangan Model Data dan Tampilan GridView
+
+Model Item telah dikembangkan dengan menambahkan atribut tambahan berupa foto produk (imageUrl), stok, dan rating. Tampilan ListView telah diubah menjadi GridView untuk memberikan pengalaman seperti aplikasi marketplace pada umumnya. Implementasi ini mencakup:
+- Penambahan atribut `imageUrl`, `stock`, dan `rating` pada model Item
+- Perubahan layout dari ListView ke GridView dengan 2 kolom
+- Desain card yang menampilkan gambar, nama, harga, rating, dan stok produk
+
+#### 4. Implementasi Hero Widget untuk Animasi Transisi
+
+Hero widget berhasil diimplementasikan untuk memberikan animasi transisi yang smooth antara gambar produk di HomePage dan ItemPage. Implementasi menggunakan tag unik `'product-${item.name}'` untuk menghubungkan kedua widget Hero.
+
+*Referensi: [Flutter Documentation - Hero Animations](https://docs.flutter.dev/cookbook/navigation/hero-animations)*
+
+#### 5. Peningkatan Desain User Interface
+
+Aplikasi telah mengalami peningkatan signifikan dalam hal desain dan struktur kode:
+- Desain visual yang lebih menarik dengan color scheme yang konsisten
+- Pemecahan widget menjadi komponen yang lebih kecil dan reusable
+- Penambahan footer yang mencantumkan nama dan NIM pengembang
+- Error handling untuk gambar yang gagal dimuat
+- Implementasi feedback berupa SnackBar pada tombol "Add to Cart"
+
+#### 6. Eksplorasi Plugin Go Router
+
+Telah dilakukan eksplorasi terhadap plugin go_router sebagai alternatif untuk sistem navigasi. Plugin ini telah ditambahkan ke dalam dependencies dan dikonfigurasi untuk routing yang lebih advanced, meskipun implementasi masih menggunakan Navigator tradisional untuk menjaga kompatibilitas.
+
+### Hasil Akhir
+
+Aplikasi belanja yang telah dikembangkan memiliki fitur-fitur berikut:
+- Tampilan grid marketplace dengan 4 produk sample
+- Hero animation untuk transisi gambar
+- Detail produk lengkap dengan rating dan stok
+- UI yang responsive dan user-friendly
+- Footer dengan identitas pengembang
+
+![Hasil Akhir Aplikasi](images/tugas-praktikum-hasil1.png)   
+![Hasil Akhir Aplikasi - Detail](images/tugas-praktikum-hasil2.png)
