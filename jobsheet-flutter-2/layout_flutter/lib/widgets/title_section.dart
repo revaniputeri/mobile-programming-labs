@@ -15,14 +15,14 @@ class TitleSection {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: const Text(
-                    'Wisata Gunung di Batu',
+                    'Wisata Gunung Bromo',
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                     ),
                   ),
                 ),
                 Text(
-                  'Batu, Malang, Indonesia',
+                  'Jawa Timur, Indonesia',
                   style: TextStyle(
                     color: Colors.grey,
                   ),
