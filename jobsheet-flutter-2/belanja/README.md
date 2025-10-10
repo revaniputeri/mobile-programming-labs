@@ -131,9 +131,10 @@ class HomePage extends StatelessWidget {
 ```
 ### Hasil:
 ![Hasil Praktikum 1](images/praktikum5_hasil1.png)
-|  |  |
+
 |---------|-------------------|
-| 7 | Menambahkan navigasi pada ListView menggunakan widget InkWell. Wrap Card dengan InkWell dan tambahkan onTap untuk navigasi ke ItemPage dengan mengirim data item sebagai arguments. Berikut contoh implementasinya:
+| 7 | Menambahkan navigasi pada ListView menggunakan widget InkWell. Wrap Card dengan InkWell dan tambahkan onTap untuk navigasi ke ItemPage dengan mengirim data item sebagai arguments. Berikut contoh implementasinya: |   
+
 **lib/pages/home_page.dart**
 ```dart
 return InkWell(
