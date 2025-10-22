@@ -8,6 +8,9 @@
 
 ## Dokumentasi Praktikum
 
+Link proyek:
+https://github.com/revaniputeri/mobile-programming-labs/tree/main/jobsheet-6
+
 ### Langkah 1
 ![Langkah 1](images/1.jpg)  
 **Penjelasan:**  
