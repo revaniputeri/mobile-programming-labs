@@ -42,5 +42,12 @@
             <action android:name="android.intent.action.PROCESS_TEXT"/>
             <data android:mimeType="text/plain"/>
         </intent>
+        <!-- Tambahan untuk visibilitas engine TTS pada Android 11+ -->
+        <intent>
+            <action android:name="android.speech.tts.engine.CHECK_TTS_DATA"/>
+        </intent>
+        <intent>
+            <action android:name="android.speech.tts.engine.GET_SAMPLE_TEXT"/>
+        </intent>
     </queries>
 </manifest>
